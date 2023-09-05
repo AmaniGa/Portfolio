@@ -1,0 +1,83 @@
+.aboutbox{
+    width: 650px;
+    height: 80vh;
+    background-color: #222;
+    position: relative;
+    border-radius: 0 4px 4px 0;
+    box-shadow: 10px 10px 15px rgba(0,0,0,.5);
+    animation: myAnim 1s ease 0s 1 normal forwards;
+    
+}
+
+@keyframes myAnim {
+	0% {
+		opacity: 0;
+		transform: translateY(50px);
+	}
+
+	100% {
+		opacity: 1;
+		transform: translateY(0);
+	}
+}
+.titleAbout{
+    color: rgba(255,255,255,.85);
+    font-size: 20px;
+    font-weight: 600;
+    font-family: 'Roboto slab';
+    padding: 30px 30px 0;
+}
+.circle{
+    background: linear-gradient(135deg,rgba(246,184,70,.4) 0%,rgba(246,184,70,.01) 100%);
+    content: '';
+    position: absolute;
+    left: 20px;
+    top: 33px;
+    width: 30px;
+    height: 30px;
+    border-radius: 30px;
+   
+}
+.circle1{
+    background: linear-gradient(135deg,rgba(246,184,70,.4) 0%,rgba(246,184,70,.01) 100%);
+    content: '';
+    position: absolute;
+    left: 20px;
+    top: 87px;
+    width: 30px;
+    height: 30px;
+    border-radius: 30px;
+   
+}
+.circle2{
+    background: linear-gradient(135deg,rgba(246,184,70,.4) 0%,rgba(246,184,70,.01) 100%);
+    content: '';
+    position: absolute;
+    left: 20px;
+    top: 144px;
+    width: 30px;
+    height: 30px;
+    border-radius: 30px;
+   
+}
+.bar{
+    position: absolute;
+    top: 80px;
+    height: 1px;
+    width: 100%;
+    background:radial-gradient(ellipse at left, rgba(197, 202, 213, 0.15) 0%, rgba(255, 255, 255, 0) 70%)
+   }
+   .bar1{
+    position: absolute;
+    top: 135px;
+    height: 1px;
+    width: 100%;
+    background:radial-gradient(ellipse at left, rgba(197, 202, 213, 0.15) 0%, rgba(255, 255, 255, 0) 70%)
+   }
+   .bar2{
+    position: absolute;
+    top: 195px;
+    height: 1px;
+    width: 100%;
+    background:radial-gradient(ellipse at left, rgba(197, 202, 213, 0.15) 0%, rgba(255, 255, 255, 0) 70%)
+   }
